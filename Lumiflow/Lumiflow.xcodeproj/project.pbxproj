@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3CCAA00D2D6EF483002DAC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CCA9FF42D6EF482002DAC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CCA9FFB2D6EF482002DAC9E;
+			remoteInfo = Lumiflow;
+		};
+		3CCAA0172D6EF483002DAC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CCA9FF42D6EF482002DAC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CCA9FFB2D6EF482002DAC9E;
+			remoteInfo = Lumiflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CCA9FFC2D6EF482002DAC9E /* Lumiflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumiflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCAA00C2D6EF483002DAC9E /* LumiflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCAA0162D6EF483002DAC9E /* LumiflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CDF6E712D7FEE08006F49AC /* Exceptions for "Lumiflow" folder in "Lumiflow" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3CCA9FFB2D6EF482002DAC9E /* Lumiflow */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3CCA9FFE2D6EF482002DAC9E /* Lumiflow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CDF6E712D7FEE08006F49AC /* Exceptions for "Lumiflow" folder in "Lumiflow" target */,
+			);
+			path = Lumiflow;
+			sourceTree = "<group>";
+		};
+		3CCAA00F2D6EF483002DAC9E /* LumiflowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumiflowTests;
+			sourceTree = "<group>";
+		};
+		3CCAA0192D6EF483002DAC9E /* LumiflowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumiflowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CCA9FF92D6EF482002DAC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA0092D6EF483002DAC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA0132D6EF483002DAC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CCA9FF32D6EF482002DAC9E = {
+			isa = PBXGroup;
+			children = (
+				3CCA9FFE2D6EF482002DAC9E /* Lumiflow */,
+				3CCAA00F2D6EF483002DAC9E /* LumiflowTests */,
+				3CCAA0192D6EF483002DAC9E /* LumiflowUITests */,
+				3CCA9FFD2D6EF482002DAC9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CCA9FFD2D6EF482002DAC9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CCA9FFC2D6EF482002DAC9E /* Lumiflow.app */,
+				3CCAA00C2D6EF483002DAC9E /* LumiflowTests.xctest */,
+				3CCAA0162D6EF483002DAC9E /* LumiflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CCA9FFB2D6EF482002DAC9E /* Lumiflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCAA0202D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "Lumiflow" */;
+			buildPhases = (
+				3CCA9FF82D6EF482002DAC9E /* Sources */,
+				3CCA9FF92D6EF482002DAC9E /* Frameworks */,
+				3CCA9FFA2D6EF482002DAC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3CCA9FFE2D6EF482002DAC9E /* Lumiflow */,
+			);
+			name = Lumiflow;
+			packageProductDependencies = (
+			);
+			productName = Lumiflow;
+			productReference = 3CCA9FFC2D6EF482002DAC9E /* Lumiflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CCAA00B2D6EF483002DAC9E /* LumiflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCAA0232D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "LumiflowTests" */;
+			buildPhases = (
+				3CCAA0082D6EF483002DAC9E /* Sources */,
+				3CCAA0092D6EF483002DAC9E /* Frameworks */,
+				3CCAA00A2D6EF483002DAC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CCAA00E2D6EF483002DAC9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CCAA00F2D6EF483002DAC9E /* LumiflowTests */,
+			);
+			name = LumiflowTests;
+			packageProductDependencies = (
+			);
+			productName = LumiflowTests;
+			productReference = 3CCAA00C2D6EF483002DAC9E /* LumiflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CCAA0152D6EF483002DAC9E /* LumiflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CCAA0262D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "LumiflowUITests" */;
+			buildPhases = (
+				3CCAA0122D6EF483002DAC9E /* Sources */,
+				3CCAA0132D6EF483002DAC9E /* Frameworks */,
+				3CCAA0142D6EF483002DAC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CCAA0182D6EF483002DAC9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CCAA0192D6EF483002DAC9E /* LumiflowUITests */,
+			);
+			name = LumiflowUITests;
+			packageProductDependencies = (
+			);
+			productName = LumiflowUITests;
+			productReference = 3CCAA0162D6EF483002DAC9E /* LumiflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CCA9FF42D6EF482002DAC9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3CCA9FFB2D6EF482002DAC9E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3CCAA00B2D6EF483002DAC9E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3CCA9FFB2D6EF482002DAC9E;
+					};
+					3CCAA0152D6EF483002DAC9E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3CCA9FFB2D6EF482002DAC9E;
+					};
+				};
+			};
+			buildConfigurationList = 3CCA9FF72D6EF482002DAC9E /* Build configuration list for PBXProject "Lumiflow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CCA9FF32D6EF482002DAC9E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3CCA9FFD2D6EF482002DAC9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CCA9FFB2D6EF482002DAC9E /* Lumiflow */,
+				3CCAA00B2D6EF483002DAC9E /* LumiflowTests */,
+				3CCAA0152D6EF483002DAC9E /* LumiflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CCA9FFA2D6EF482002DAC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA00A2D6EF483002DAC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA0142D6EF483002DAC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CCA9FF82D6EF482002DAC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA0082D6EF483002DAC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCAA0122D6EF483002DAC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CCAA00E2D6EF483002DAC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CCA9FFB2D6EF482002DAC9E /* Lumiflow */;
+			targetProxy = 3CCAA00D2D6EF483002DAC9E /* PBXContainerItemProxy */;
+		};
+		3CCAA0182D6EF483002DAC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CCA9FFB2D6EF482002DAC9E /* Lumiflow */;
+			targetProxy = 3CCAA0172D6EF483002DAC9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CCAA01E2D6EF483002DAC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CCAA01F2D6EF483002DAC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CCAA0212D6EF483002DAC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumiflow/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MF9DXDAWC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = Lumiflow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Lumiflow需要访问您的相册以保存拍摄的照片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lumiflow需要访问您的相册以保存拍摄的照片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.lumiflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CCAA0222D6EF483002DAC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumiflow/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MF9DXDAWC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = Lumiflow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Lumiflow需要访问您的相册以保存拍摄的照片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lumiflow需要访问您的相册以保存拍摄的照片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.lumiflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CCAA0242D6EF483002DAC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5B8Y3ZM4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dafumiao.LumiflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumiflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumiflow";
+			};
+			name = Debug;
+		};
+		3CCAA0252D6EF483002DAC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5B8Y3ZM4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dafumiao.LumiflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumiflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumiflow";
+			};
+			name = Release;
+		};
+		3CCAA0272D6EF483002DAC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5B8Y3ZM4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dafumiao.LumiflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumiflow;
+			};
+			name = Debug;
+		};
+		3CCAA0282D6EF483002DAC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5B8Y3ZM4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dafumiao.LumiflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumiflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CCA9FF72D6EF482002DAC9E /* Build configuration list for PBXProject "Lumiflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCAA01E2D6EF483002DAC9E /* Debug */,
+				3CCAA01F2D6EF483002DAC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CCAA0202D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "Lumiflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCAA0212D6EF483002DAC9E /* Debug */,
+				3CCAA0222D6EF483002DAC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CCAA0232D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "LumiflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCAA0242D6EF483002DAC9E /* Debug */,
+				3CCAA0252D6EF483002DAC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CCAA0262D6EF483002DAC9E /* Build configuration list for PBXNativeTarget "LumiflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CCAA0272D6EF483002DAC9E /* Debug */,
+				3CCAA0282D6EF483002DAC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CCA9FF42D6EF482002DAC9E /* Project object */;
+}

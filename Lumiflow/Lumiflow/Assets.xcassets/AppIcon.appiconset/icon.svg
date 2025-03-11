@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" fill="#5096EB" />
+  
+  <!-- 光效背景 -->
+  <circle cx="512" cy="512" r="350" fill="#2B74D2" />
+  <circle cx="512" cy="512" r="250" fill="#4389E3" />
+  
+  <!-- 灯光射线 -->
+  <path d="M512 162 L512 50" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M512 862 L512 974" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M162 512 L50 512" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M862 512 L974 512" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M272 272 L196 196" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M752 752 L828 828" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M752 272 L828 196" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  <path d="M272 752 L196 828" stroke="#FFE15C" stroke-width="30" stroke-linecap="round" />
+  
+  <!-- 相机图标 -->
+  <rect x="312" y="412" width="400" height="300" rx="30" fill="#1D3461" />
+  <circle cx="512" cy="562" r="120" fill="#FFFFFF" />
+  <circle cx="512" cy="562" r="90" fill="#3B7FE6" />
+  <circle cx="512" cy="562" r="60" fill="#1D3461" />
+  <circle cx="512" cy="562" r="30" fill="#FFFFFF" />
+  
+  <!-- 相机顶部 -->
+  <rect x="387" y="362" width="250" height="50" rx="15" fill="#1D3461" />
+  
+  <!-- 闪光灯 -->
+  <circle cx="712" cy="462" r="20" fill="#FFE15C" />
+</svg> 
