@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1024" height="1024" rx="230" ry="230" fill="#1E133A" />
+  
+  <!-- 手机/自拍设备轮廓 -->
+  <rect x="312" y="260" width="400" height="600" rx="40" ry="40" fill="#0A0520" stroke="#FFFFFF" stroke-width="12" />
+  
+  <!-- 手机屏幕 -->
+  <rect x="342" y="310" width="340" height="450" rx="20" ry="20" fill="#252045" stroke="#FFFFFF" stroke-width="4" />
+  
+  <!-- 自拍摄像头 -->
+  <circle cx="512" cy="290" r="15" fill="#FFFFFF" stroke="#00CCB3" stroke-width="4" />
+  
+  <!-- 中央人像轮廓 - 简化抽象表示 -->
+  <ellipse cx="512" cy="480" rx="100" ry="150" fill="#302B5A" stroke="#FFFFFF" stroke-width="3" />
+  <circle cx="512" cy="380" r="60" fill="#302B5A" stroke="#FFFFFF" stroke-width="3" />
+  
+  <!-- 打光效果 - 不同颜色的光线从四周照向人像 -->
+  <!-- 顶部光线 - 白色主光源 -->
+  <path d="M412,330 Q512,280 612,330" stroke="#FFFFFF" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- 左侧光线 - 暖色调补光 -->
+  <path d="M350,410 Q300,480 350,550" stroke="#FEE54C" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- 右侧光线 - 冷色调补光 -->
+  <path d="M674,410 Q724,480 674,550" stroke="#6FCFF5" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- 底部控制栏 -->
+  <rect x="362" y="780" width="300" height="60" rx="30" ry="30" fill="#0A0520" stroke="#FFFFFF" stroke-width="4" />
+  
+  <!-- 打光控制按钮/滑块 -->
+  <circle cx="412" cy="810" r="20" fill="#FFFFFF" />
+  <circle cx="472" cy="810" r="20" fill="#FEE54C" />
+  <circle cx="532" cy="810" r="20" fill="#F5A7A7" />
+  <circle cx="592" cy="810" r="20" fill="#00CCB3" />
+  <circle cx="652" cy="810" r="20" fill="#6FCFF5" />
+  
+  <!-- 打光效果光晕 - 完全不透明 -->
+  <path d="M360,400 C280,300 280,600 360,560" stroke="#F5A7A7" stroke-width="15" stroke-linecap="round" fill="none" />
+  <path d="M664,400 C744,300 744,600 664,560" stroke="#00CCB3" stroke-width="15" stroke-linecap="round" fill="none" />
+  
+  <!-- Logo标识 - 用几何图形代替文字 -->
+  <rect x="432" y="685" width="160" height="10" rx="5" ry="5" fill="#FFFFFF" />
+  <rect x="432" y="705" width="160" height="10" rx="5" ry="5" fill="#FFFFFF" />
+  <rect x="432" y="725" width="160" height="10" rx="5" ry="5" fill="#FFFFFF" />
+</svg> 
