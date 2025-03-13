@@ -4,5 +4,9 @@
 <dict>
 	<key>UIApplicationSceneManifest</key>
 	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>Lumiflow需要访问您的相机以提供自拍补光功能，让您的照片和视频拥有专业级光效。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Lumiflow需要访问您的照片库，以便保存您拍摄的照片。</string>
 </dict>
 </plist>
